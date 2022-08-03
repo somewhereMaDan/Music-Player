@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Music Player</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c108e6a9f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="main-div">
+    <div class="container">
+      <h1 id="name">Love Me Harder</h1>
+      <h3 id="artist">Ariana Grande</h3>
+
+      <div class="img-container">
+        <img id="img" src="folder/love-me-harder.jpg" alt="">
+      </div>
+
+      <audio id="audio" src="folder/love-me-harder.mp3" ></audio>
+
+      <!-- controls -->
+      <div class="music-controls">
+        <i class="fa-solid fa-backward" id="prev" title="Previous"></i>
+        <i class="fa-solid fa-play" id="play" title="Play"></i>
+        <i class="fa-solid fa-forward" id="next" title="Next"></i>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
