@@ -4,17 +4,15 @@
   font-family: 'Open Sans', sans-serif;
 }
 body{
-  /* padding-bottom: 1000px; */
   background: lightpink;
 }
 
 .container{
-  /* background-color: LIGH; */
   background: white;
   margin-left: auto;
   margin-right: auto;
   width: 600px;
-  margin-top: 50px;
+  margin-top: 100px;
   border-radius: 20px;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
 }
